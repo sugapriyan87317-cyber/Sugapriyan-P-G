@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(135deg, #6a0dad 0%, #e0e0e0 70%, #8e44ad 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(100,100,100,0.15);
+  padding: 36px;
+}
+header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.profile-photo {
+  position: relative;
+  width: 130px;
+  height: 190px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin: 0 auto 4px;
+  box-shadow:
+    0 0 8px 3px rgba(52,152,219,0.7),
+    0 0 15px 6px rgba(52,152,219,0.35),
+    0 0 30px 12px rgba(52,152,219,0.15);
+  border: 3px solid transparent;
+  background: #e0e0e0;
+}
+.profile-photo img {
+  width: 130px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 70%;
+  display: block;
+}
+h1 {
+  margin-bottom: 10px;
+  color: #4b0082;
+  font-size: 2.2em;
+}
+.tagline {
+  font-style: italic;
+  color: #666;
+  font-size: 1.15em;
+  margin-bottom: 12px;
+}
+section {
+  margin: 32px 0;
+}
+h2 {
+  color: #6a0dad;
+  font-size: 3em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+ul.skills li {
+  background: #dcdcdc;
+  color: #4b0082;
+  border-radius: 14px;
+  padding: 6px 16px;
+  font-weight: 500;
+  font-size: 2em;
+  list-style: none;
+  box-shadow: 0 2px 8px rgba(120,120,120,0.15);
+}
+ul.contact-list {
+  list-style: none;
+  padding: 0;
+}
+ul.contact-list li {
+  background: #f5f5f5;
+  color: #333;
+  border-radius: 12px;
+  padding: 6px 12px;
+  margin-bottom: 9px;
+  font-size: 1em;
+  font-weight: 500;
+}
+a {
+  color: #6a0dad;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #4b0082;
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  margin-top: 38px;
+  background: linear-gradient(90deg,#8e44ad,#dcdcdc);
+  padding: 22px;
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  font-weight: 500;
+  font-size: 1.08em;
+}
